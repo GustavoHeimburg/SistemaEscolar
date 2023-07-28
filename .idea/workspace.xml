@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9276e55-0973-4cd8-9247-c04a6c316d67" name="Changes" comment="Commit DO FINALMENTE MATERIA ESTA ENTRANDO E ATUALIZANDO A BOSTA NO BANCO DE DADOS E FINALMENTE O FORMULA TAMBÉM ENTRA NESSE LIXO">
+    <list default="true" id="e9276e55-0973-4cd8-9247-c04a6c316d67" name="Changes" comment="Finalizando fxml">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/Formulas.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/FormulaListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/FormulaListController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/FormulaForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/FormulaForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/FormulaList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/FormulaList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/FormulaFormController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/FormulaFormController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/FormulaFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/FormulaFormController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690567475814</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Finalizando fxml">
+      <created>1690570318787</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690570318787</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Finalizando fxml">
+      <created>1690570332954</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690570332954</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -239,7 +250,8 @@
     <MESSAGE value="Commit" />
     <MESSAGE value="Commit DO FINALMENTE MATERIA ESTA ENTRANDO E ATUALIZANDO A BOSTA NO BANCO DE DADOS" />
     <MESSAGE value="Commit DO FINALMENTE MATERIA ESTA ENTRANDO E ATUALIZANDO A BOSTA NO BANCO DE DADOS E FINALMENTE O FORMULA TAMBÉM ENTRA NESSE LIXO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit DO FINALMENTE MATERIA ESTA ENTRANDO E ATUALIZANDO A BOSTA NO BANCO DE DADOS E FINALMENTE O FORMULA TAMBÉM ENTRA NESSE LIXO" />
+    <MESSAGE value="Finalizando fxml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando fxml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
