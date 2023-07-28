@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9276e55-0973-4cd8-9247-c04a6c316d67" name="Changes" comment="Formulas novo finalizado">
+    <list default="true" id="e9276e55-0973-4cd8-9247-c04a6c316d67" name="Changes" comment="Projeto finalizado.">
+      <change afterPath="$PROJECT_DIR$/banco_de_dados/brainly_matematica.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/About.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/About.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690574718723</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Projeto finalizado.">
+      <created>1690575407578</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1690575407578</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -267,7 +274,8 @@
     <MESSAGE value="Commit DO FINALMENTE MATERIA ESTA ENTRANDO E ATUALIZANDO A BOSTA NO BANCO DE DADOS E FINALMENTE O FORMULA TAMBÉM ENTRA NESSE LIXO" />
     <MESSAGE value="Finalizando fxml" />
     <MESSAGE value="Formulas novo finalizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formulas novo finalizado" />
+    <MESSAGE value="Projeto finalizado." />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto finalizado." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
