@@ -40,9 +40,9 @@
       </GridPane>
       <Button fx:id="btCancel" layoutX="314.0" layoutY="213.0" mnemonicParsing="false" onAction="#onBtCancelAction" prefHeight="25.0" prefWidth="256.0" styleClass="button-style-no" text="Cancelar Formula" />
       <Button fx:id="btSave" layoutX="21.0" layoutY="213.0" mnemonicParsing="false" onAction="#onBtSaveAction" prefHeight="25.0" prefWidth="256.0" text="Salvar Formula" />
-      <ImageView fitHeight="260.0" fitWidth="318.0" layoutX="592.0" layoutY="14.0">
+      <ImageView fitHeight="260.0" fitWidth="318.0" layoutX="597.0" layoutY="8.0">
          <image>
-            <Image url="@Formulas.jpg" />
+            <Image url="@Imagens/Formulas.jpg" />
          </image>
       </ImageView>
    </children>

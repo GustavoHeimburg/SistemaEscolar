@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9276e55-0973-4cd8-9247-c04a6c316d67" name="Changes" comment="Finalizando fxml">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/Formulas.jpg" afterDir="false" />
+    <list default="true" id="e9276e55-0973-4cd8-9247-c04a6c316d67" name="Changes" comment="Formulas novo finalizado">
+      <change afterPath="$PROJECT_DIR$/ComecoBrainlyProjeto-main.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/Imagens/FormulasRegistro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/Imagens/Galinha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/Imagens/GutoProgramando.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/Imagens/HenriqueProgramacoes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/Imagens/ManoelDois.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/Imagens/ManoelGomes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/Imagens/Materias.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/Imagens/PedroProgramacoes.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/About.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/About.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/FormulaForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/FormulaForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/FormulaList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/FormulaList.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/Formulas.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/Imagens/Formulas.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/MainView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/MatterForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/MatterForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/MatterList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/MatterList.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/capaDefinitiva.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/Imagens/capaDefinitiva.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +68,11 @@
       <recent name="C:\Users\Pedro e Gu\Documents\GitHub\ProjetoIntegradorComeco\src\main\resources\com\senac\projetointegradorcomeco" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProjetosJava\BrainlyProjetoFinal\src\main\resources\com\senac\projetointegradorcomeco\Imagens" />
+      <recent name="D:\ProjetosJava\BrainlyProjetoFinal\src\main\resources\com\senac\projetointegradorcomeco" />
+      <recent name="D:\ProjetosJava\BrainlyProjetoFinal\src\main\resources" />
       <recent name="C:\Users\henri\OneDrive\Documentos\GitHub\PastaProjetoIntegrador\ProjetoIntegradorComeco\src\main\resources" />
       <recent name="C:\Users\henri\OneDrive\Documentos\GitHub\PastaProjetoIntegrador\ProjetoIntegradorComeco\src\main\resources\com\senac\projetointegradorcomeco" />
-      <recent name="C:\Users\henri\OneDrive\Documentos\GitHub\ProjetoIntegradorComeco\src\main\resources\com\senac\projetointegradorcomeco" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Aplication.Main">
@@ -227,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690570332954</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Formulas novo finalizado">
+      <created>1690571472515</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1690571472515</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -251,7 +275,8 @@
     <MESSAGE value="Commit DO FINALMENTE MATERIA ESTA ENTRANDO E ATUALIZANDO A BOSTA NO BANCO DE DADOS" />
     <MESSAGE value="Commit DO FINALMENTE MATERIA ESTA ENTRANDO E ATUALIZANDO A BOSTA NO BANCO DE DADOS E FINALMENTE O FORMULA TAMBÉM ENTRA NESSE LIXO" />
     <MESSAGE value="Finalizando fxml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizando fxml" />
+    <MESSAGE value="Formulas novo finalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formulas novo finalizado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

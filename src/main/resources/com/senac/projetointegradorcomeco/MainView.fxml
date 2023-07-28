@@ -43,7 +43,7 @@
             </TextField>
             <ImageView fitHeight="240.0" fitWidth="520.0">
                <image>
-                  <Image url="@capaDefinitiva.jpg" />
+                  <Image url="@Imagens/capaDefinitiva.jpg" />
                </image>
                <VBox.margin>
                   <Insets left="40.0" top="30.0" />

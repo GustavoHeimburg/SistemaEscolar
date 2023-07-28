@@ -1,40 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="326.0" prefWidth="513.0" styleClass="root" stylesheets="@style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.FormulaListController">
+<VBox prefHeight="503.0" prefWidth="1050.0" styleClass="root" stylesheets="@style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FormulaListController">
          <children>
-            <Label text="Registro de Formula">
+      <Pane prefHeight="552.0" prefWidth="1050.0">
+         <children>
+            <ImageView fitHeight="163.0" fitWidth="324.0" layoutX="696.0" layoutY="18.0" nodeOrientation="INHERIT">
+               <image>
+                  <Image url="@Imagens/FormulasRegistro.jpg" />
+               </image>
+            </ImageView>
+                  <Label layoutX="14.0" layoutY="59.0" prefHeight="66.0" prefWidth="348.0" text="Registros de Formulas">
+                     <font>
+                        <Font name="System Bold" size="31.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="10.0" left="20.0" top="10.0" />
+                     </padding>
+                  </Label>
+            <ImageView fitHeight="124.0" fitWidth="180.0" layoutX="452.0" layoutY="30.0">
+               <image>
+                  <Image url="@Imagens/ManoelGomes.jpg" />
+               </image>
+            </ImageView>
+          <Button fx:id="btNew" layoutX="47.0" layoutY="137.0" mnemonicParsing="false" onAction="#onBtNewAction" prefHeight="36.0" prefWidth="283.0" styleClass="button-new" text="Nova Formula">
                <font>
-                  <Font name="System Bold" size="18.0" />
+                  <Font name="System Bold" size="20.0" />
                </font>
-               <VBox.margin>
-                  <Insets />
-               </VBox.margin>
-               <padding>
-                  <Insets bottom="10.0" left="20.0" top="10.0" />
-               </padding>
-            </Label>
-      <ToolBar prefHeight="40.0" prefWidth="200.0">
-        <items>
-          <Button fx:id="btNew" mnemonicParsing="false" onAction="#onBtNewAction" styleClass="button-new" text="Novo" />
-        </items>
-      </ToolBar>
-      <TableView fx:id="tableViewFormula" prefHeight="200.0" prefWidth="200.0">
+            </Button>
+         </children>
+      </Pane>
+      <Accordion />
+      <ToolBar prefHeight="51.0" prefWidth="1050.0" />
+      <TableView fx:id="tableViewFormula" prefHeight="347.0" prefWidth="1040.0">
         <columns>
-            <TableColumn fx:id="tableColumnId" prefWidth="30.0" text="Id" />
-            <TableColumn fx:id="tableColumnMatter" prefWidth="50.0" text="Matéria" />
-          <TableColumn fx:id="tableColumnName" prefWidth="50.0" text="Nome" />
-            <TableColumn fx:id="tableColumnDescFormula" prefWidth="200.0" text="Descrição" />
-            <TableColumn fx:id="tableColumnEDIT" prefWidth="75.0" />
-            <TableColumn fx:id="tableColumnREMOVE" prefWidth="75.0" />
+            <TableColumn fx:id="tableColumnId" prefWidth="46.0" text="Id" />
+            <TableColumn fx:id="tableColumnMatter" prefWidth="106.0" text="Matéria" />
+          <TableColumn fx:id="tableColumnName" prefWidth="105.0" text="Nome" />
+            <TableColumn fx:id="tableColumnDescFormula" prefWidth="554.0" text="Descrição" />
+            <TableColumn fx:id="tableColumnEDIT" prefWidth="116.0" text="Editar formula" />
+            <TableColumn fx:id="tableColumnREMOVE" prefWidth="122.0" text="Apagar Formula" />
         </columns>
       </TableView>
          </children>
