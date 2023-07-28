@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="339.0" prefWidth="655.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FormulaFormController">
+   <children>
+      <GridPane layoutX="39.0" layoutY="37.0" prefHeight="94.0" prefWidth="528.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="172.0" minWidth="10.0" prefWidth="30.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="333.0" minWidth="10.0" prefWidth="226.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="239.0" minWidth="10.0" prefWidth="239.0" />
+            <ColumnConstraints />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints />
+            <RowConstraints />
+        </rowConstraints>
+         <children>
+            <Label text="Id" />
+            <Label text="Nome" GridPane.rowIndex="1" />
+             <Label text="Descricao formula" GridPane.rowIndex="2" />
+            <TextField fx:id="txtId" editable="false" GridPane.columnIndex="1" />
+            <TextField fx:id="txtName" prefHeight="20.0" prefWidth="242.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+             <TextField fx:id="txtDescFormula" prefHeight="70.0" prefWidth="242.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="labelErrorName" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+             <Label fx:id="labelErrorDescFormula" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+             <ComboBox fx:id="comboBoxMatter" prefHeight="25.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+      <Button fx:id="btSave" layoutX="71.0" layoutY="142.0" mnemonicParsing="false" onAction="#onBtSaveAction" text="Salvar" />
+      <Button fx:id="btCancel" layoutX="132.0" layoutY="142.0" mnemonicParsing="false" onAction="#onBtCancelAction" styleClass="button-style-no" text="Cancelar" />
+   </children>
+</AnchorPane>
